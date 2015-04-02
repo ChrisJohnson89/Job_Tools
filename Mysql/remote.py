@@ -1,6 +1,3 @@
-name = input("What's your name? ")
+name = input("Enter UserName ")
 
-if name == "Chris":
-  print("{} is a lumberjack and he/she's OK!".format(name))
-else:
-  print("{} sleeps all night and {} works all day!".format(name, name))
+print("CREATE USER '" + name + "'@'%';")
